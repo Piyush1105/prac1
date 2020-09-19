@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
         return(
         <>
         
-<footer className ="page-footer font-small unique-color-dark pt-4" /*footer*/>
+<footer className ="page-footer font-small  bg-light pt-4" /*footer*/>
 
 
 <div className ="container"  /*Footer Elements */>
@@ -19,7 +19,7 @@ export default class Footer extends React.Component {
       <h5 className ="mb-1">Register for free</h5>
     </li>
     <li className ="list-inline-item">
-      <a href="#!" className ="btn btn-outline-white btn-rounded">Sign up!</a>
+      <a href="#!" className ="btn btn-outline-primary btn-rounded text-primary">Sign up!</a>
     </li>
   </ul>
   
