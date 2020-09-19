@@ -1,4 +1,4 @@
-var Data = [
+const Data = [
     {
         imgsrc: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg',
         name: 'Piyush Yadav',
@@ -7,6 +7,11 @@ var Data = [
     {
         imgsrc: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg',
         name: 'Sagar Raghav',
+        link: '',
+    },
+    {
+        imgsrc: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg',
+        name: 'Subham Sood',
         link: '',
     }
 ];
