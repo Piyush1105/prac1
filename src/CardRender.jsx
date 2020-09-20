@@ -9,9 +9,8 @@ class CardRender extends Component {
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
         {Data.map((data) => (
-            <div className="col-md-4" key={data.imgsrc}>
+            <div className="col-md-4" >
               <Cards
-                key={data}
                 imgsrc={data.imgsrc}
                 name={data.name}
                 role={data.role}

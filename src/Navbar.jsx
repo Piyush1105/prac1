@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a className="navbar-brand" href="#">
           <b>
-            Code<spam style={{ color: "#66ccff" }}>Practice</spam>
+            Code<span style={{ color: "#66ccff" }}>Practice</span>
           </b>
         </a>
         <button

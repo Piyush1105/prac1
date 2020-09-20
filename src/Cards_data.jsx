@@ -16,18 +16,6 @@ const Data = [
         name: 'Subham Sood',
         role: 'Manager',
         link: '',
-    },
-    {
-        imgsrc: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg',
-        name: 'Subham Sood',
-        role: 'Manager',
-        link: '',
-    },
-    {
-        imgsrc: 'https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg',
-        name: 'Subham Sood',
-        role: 'Manager',
-        link: '',
     }
 ];
 

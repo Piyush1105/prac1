@@ -1,10 +1,13 @@
 .page-footer {
+  color: white;
   position: relative !important;
+  margin-top: 1rem !important;
   left: 0;
   bottom: 0;
   right: 0;
 }
 
 .div .container {
+  margin-top: 2rem;
   padding-bottom: 0;
 }
