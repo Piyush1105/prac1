@@ -4,6 +4,7 @@ body{
 
 .card{
     width: 20rem;
+    margin: auto;
 }
 
 .card:hover{
@@ -11,7 +12,7 @@ body{
 }
 
 .card-body{
-    padding: 3rem 0 !important;
+    padding: 3rem 2rem !important;
 }
 
 .card-text{
@@ -34,4 +35,8 @@ body{
 
 .card-imh-top:hover{
     transform: scale(1.8);
+}
+
+.col-md-4{
+    padding: 0.45rem;
 }
