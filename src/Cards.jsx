@@ -1,27 +1,21 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./Card.css";
+import "./Cards_data";
 
-
-function Cards(props) {
-  return (
-    <>
-      <div className="Card" /*full_container*/>
-        <div className="view overlay" /*card_image*/>
-          <img className="cardImgTop" src={props.imgsrc} alt="CardImageCap" />
-          </div>
-
-          <div /*Card_Content*/ className="cardBody">
-            <h4 className="cardTitle">{props.name}</h4>
-            <p className="cardText">Some quick example text to build on the card title and make up the bulk of the card's
-    content.</p>
-            <a href={props.link} className ="btn btnPrimary">
-              More Info
-            </a>
-          </div>
-        </div>
-      
-    </>
+const Cards = props => {
+  return(
+    <div className="card text-center shadow">
+      <div className="overflow">
+        <img src={props.imgsrc} alt="" className="card-img-top"/>
+      </div>
+      <div className="card-body text-dark">
+        <h4 className="card-title">{props.name}</h4>
+        <p className="card-text text-secondary">{props.role}</p>
+        <a href ={props.link} className="btn btn-outline-success">More Info</a>
+      </div>
+    </div>    
   );
 }
 
