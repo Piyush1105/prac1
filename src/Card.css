@@ -1,42 +1,42 @@
-body{
-    background: radial-gradient(red);
+body {
+  background: radial-gradient(red);
 }
 
-.card{
-    width: 20rem;
-    margin: auto;
+.card {
+  width: 20rem;
+  margin: auto;
 }
 
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0, 0.253)!important;
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
 }
 
-.card-body{
-    padding: 3rem 2rem !important;
+.card-body {
+  padding: 3rem 2rem !important;
 }
 
-.card-text{
-    font-size: 0.9rem;
-    padding: 0.4rem;
+.card-text {
+  font-size: 0.9rem;
+  padding: 0.4rem;
 }
 
-.container-fluid .row{
-    padding-top: 6rem;
+.container-fluid .row {
+  padding-top: 6rem;
 }
 
-.overflow{
-    overflow: hidden;
+.overflow {
+  overflow: hidden;
 }
 
-.card-img-top{
-    transform:scale(1);
-    transition: transform 0.5s ease-in-out;
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
 }
 
-.card-imh-top:hover{
-    transform: scale(1.8);
+.card-imh-top:hover {
+  transform: scale(1.8);
 }
 
-.col-md-4{
-    padding: 0.80rem 0 0 2rem;
+.col-md-4 {
+  padding: 0.8rem 0 0 2rem;
 }
