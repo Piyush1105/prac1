@@ -9,7 +9,7 @@ const Cards = (props) => {
     <div className="card text-center shadow">
       <div className="overflow">
         <img
-          src={`/images/${props.imgsrc}`}
+          src={`/Images/${props.imgsrc}`}
           alt="my_image"
           className="card-img-top"
         />

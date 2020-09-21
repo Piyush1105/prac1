@@ -7,8 +7,8 @@ class CardRender extends Component {
     return (
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
-          {Data.map((data) => (
-            <div className="col-md-4" key={data.imgsrc}>
+          {Data.map((data, index) => (
+            <div className="col-md-4" key={data.toString()} value={index}>
               <Cards
                 imgsrc={data.imgsrc}
                 name={data.name}
