@@ -1,6 +1,29 @@
+
+:root {
+	--editor-bg: #eee;
+	--editor-border: #3f87a6;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 .occupy {
-  background-color: red;
+  background-color: blue;
   margin-top: 5rem;
   width: 100%;
   height: 800px;
 }
+
+.editor {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
