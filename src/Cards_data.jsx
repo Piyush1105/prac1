@@ -1,7 +1,7 @@
 const Data = [
   {
     id: "1",
-    imgsrc: "my_image.png",
+    imgsrc: "my_image4.png",
     name: "Piyush Yadav",
     role: "Designer",
     link: "https://www.google.com/",

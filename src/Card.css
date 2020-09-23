@@ -30,6 +30,7 @@ body {
 
 .card-img-top {
   height: 20rem;
+  max-height: 20rem;
   transform: scale(1);
   transition: transform 0.3s ease-in;
 }
