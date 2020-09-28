@@ -20,6 +20,34 @@ const Data = [
     role: "Manager",
     link: "",
   },
+  {
+    id: "3",
+    imgsrc: "shubham.png",
+    name: "Shubham Sood",
+    role: "Manager",
+    link: "",
+  },
+  {
+    id: "3",
+    imgsrc: "shubham.png",
+    name: "Shubham Sood",
+    role: "Manager",
+    link: "",
+  },
+  {
+    id: "3",
+    imgsrc: "shubham.png",
+    name: "Shubham Sood",
+    role: "Manager",
+    link: "",
+  },
+  {
+    id: "3",
+    imgsrc: "shubham.png",
+    name: "Shubham Sood",
+    role: "Manager",
+    link: "",
+  },
 ];
 
 export default Data;
